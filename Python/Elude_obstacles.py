@@ -1,6 +1,7 @@
 import easygopigo3 as easy
 my_gopigo = easy.EasyGoPiGo3()
-
+dist_sensor = my_gopigo.init_distance_sensor()
+    
 i = 1
 
 while True:
